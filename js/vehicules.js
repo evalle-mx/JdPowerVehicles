@@ -43,6 +43,10 @@ vehicleApp
 
     //$scope.vehicules = Archs.query(); //Callback to DB
     $scope.tmpVehicle = {}; //Auxiliar variable
+
+    console.log('$scope.vehicule.length: ', $scope.vehicules.length );
+    console.log('$scope.vehicule: ', $scope.vehicules )
+
     
     $scope.ftLnk = function(str){
       console.log(str);
@@ -98,7 +102,11 @@ vehicleApp
         $scope.tmpVehicle.jdpowerlink =  $scope.ftLnk($scope.tmpVehicle.make)+'/'+$scope.ftLnk($scope.tmpVehicle.model)+'/'+$scope.tmpVehicle.year; //dodge/focus-electric/2012
 
         console.log('Sending to MiddleWare: ', JSON.stringify($scope.tmpVehicle) );
-        alert('Send to Persistence (DB)');
+        //alert('Send to Persistence (DB)');
+        $scope.vehicules.push(angular.copy($scope.tmpVehicle));
+
+        
+        console.log('$scope.vehicule.length: ', $scope.vehicules.length )
         $scope.msgSuccess = 'Successfully created';
         $('#mdInfo').modal('show');
         $scope.resetFields();

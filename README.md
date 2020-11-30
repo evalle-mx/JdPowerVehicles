@@ -18,4 +18,7 @@
 + view/*
 
 #  V.0.3    #
-## New Vehicle's J functionality, JS validations 
+## New Vehicle's JS functionality, JS validations 
+
+#  V.0.4    #
+## New Vehicle's Submit functionality (Persistence), home forward/return 
