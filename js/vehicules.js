@@ -101,6 +101,9 @@ vehicleApp
         //Everything is ok, create the jdpowerlink
         $scope.tmpVehicle.jdpowerlink =  $scope.ftLnk($scope.tmpVehicle.make)+'/'+$scope.ftLnk($scope.tmpVehicle.model)+'/'+$scope.tmpVehicle.year; //dodge/focus-electric/2012
 
+        //Generating id (Simulation of DB asignation )
+        $scope.tmpVehicle.id = $scope.vehicules.length +1;
+
         console.log('Sending to MiddleWare: ', JSON.stringify($scope.tmpVehicle) );
         //alert('Send to Persistence (DB)');
         $scope.vehicules.push(angular.copy($scope.tmpVehicle));
@@ -119,10 +122,33 @@ vehicleApp
       $scope.tmpVehicle = {};
     }
 
+    $scope.gotoList = function(){
+      $('.modal').modal('hide');
+
+      setTimeout($scope.redir(), 1500);
+ 
+    }
+
+    $scope.redir = function(){
+      //alert('redirecting')
+      $('.modal').modal('hide');
+      $location.path('/vlist')
+    }
+
 })
 .controller('listCtrl', function($scope, $rootScope,$routeParams, $location, $route, $templateCache, Archs){
   console.log('listCtrl...');
   document.title = "Find your vehicle";
+
+
+  $('.modal').modal('hide');
+  console.log('$scope.vehicule.length: ', $scope.vehicules.length );
+  console.log('$scope.vehicule: ', $scope.vehicules )
+  $scope.orderProp = 'id'; // attribute in json
+  $scope.orderdesc = true; //Descendent
+
+  // scope.searchFor = null; //Predefined filter
+
 });
 
 

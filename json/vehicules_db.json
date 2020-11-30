@@ -1,4 +1,5 @@
 [{
+		"id":1,	
 		"sellerName": "Rafa Marquez",
 		"address": "256 Main Street",
 		"apartment": "201",
@@ -12,6 +13,7 @@
 		"year": "2015"
 	},
 	{
+		"id":2,	
 		"sellerName": "David Beckham",
 		"address": "188 King Street",
 		"apartment": "201",
@@ -25,6 +27,7 @@
 		"year": "2020"
 	},
 	{
+		"id":3,	
 		"sellerName": "Mohamed Alli",
 		"address": "99 King Street",
 		"apartment": "12",
@@ -38,6 +41,7 @@
 		"year": "2021"
 	},
 	{
+		"id":4,	
 		"sellerName": "John Smith",
 		"address": "494 W 38th Ave",
 		"apartment": "12",
@@ -51,6 +55,7 @@
 		"year": "2012"
 	},
 	{
+		"id":5,	
 		"sellerName": "Pierre Angelo",
 		"address": "1625 Saint-Catherine St",
 		"apartment": "12",

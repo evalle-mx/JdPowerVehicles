@@ -22,3 +22,6 @@
 
 #  V.0.4    #
 ## New Vehicle's Submit functionality (Persistence), home forward/return 
+
+#  V.0.5    #
+## Vehicle list's JS functionality, data access, bugs fixing, home forward/return 
