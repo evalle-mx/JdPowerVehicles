@@ -1,0 +1,24 @@
+/* Cascading Style Sheet for presentation and format for Group 7 final Project UI */
+/*
+.main {
+    margin:50px;
+}*/
+.content-header {
+    height: 50px;
+}
+.content-title{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.content-menu {
+    padding: 1em;
+}
+.title3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+th, td {
+    padding-left: 1em;
+  }
