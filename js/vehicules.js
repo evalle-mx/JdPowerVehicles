@@ -41,7 +41,75 @@ vehicleApp
     console.log('vehicleCtrl...');
     document.title = "Add a new vehicle";
 
-   
+    //$scope.vehicules = Archs.query(); //Callback to DB
+    $scope.tmpVehicle = {}; //Auxiliar variable
+    
+    $scope.ftLnk = function(str){
+      console.log(str);
+
+      return str.split(' ').join('-');
+    }
+    
+    /* ******** Business Functions  ******** */
+    /* Validation and Request for new object */
+    $scope.createVehicle = function(){
+      console.log('<createVehicle> ');
+      $scope.msgError = '';
+      $scope.msgSuccess='';
+      console.log( JSON.stringify($scope.tmpVehicle) );
+
+      /* empty validation */
+      if(!$scope.tmpVehicle.sellerName){
+        $scope.msgError = 'Full name is required';
+      }
+      else if(!$scope.tmpVehicle.address){
+        $scope.msgError = 'Address is required';
+      }
+      else if(!$scope.tmpVehicle.apartment){
+        $scope.msgError = 'Suite or Apartment  is required';
+      }
+      else if(!$scope.tmpVehicle.city){
+        $scope.msgError = 'City is required';
+      }
+      else if(!$scope.tmpVehicle.province){
+        $scope.msgError = 'State/Province is required';
+      }
+      else if(!$scope.tmpVehicle.phone){
+        $scope.msgError = 'Phone number is required';
+      }
+      else if(!$scope.tmpVehicle.email){
+        $scope.msgError = 'Email is required';
+      }
+      else if(!$scope.tmpVehicle.make){
+        $scope.msgError = 'Vehicle Manufacturer is required';
+      }
+      else if(!$scope.tmpVehicle.model){
+        $scope.msgError = 'Model is required';
+      }
+      else if(!$scope.tmpVehicle.year){
+        $scope.msgError = 'Year is required';
+      }
+
+      if($scope.msgError){
+        return;
+      }
+      else{
+        //Everything is ok, create the jdpowerlink
+        $scope.tmpVehicle.jdpowerlink =  $scope.ftLnk($scope.tmpVehicle.make)+'/'+$scope.ftLnk($scope.tmpVehicle.model)+'/'+$scope.tmpVehicle.year; //dodge/focus-electric/2012
+
+        console.log('Sending to MiddleWare: ', JSON.stringify($scope.tmpVehicle) );
+        alert('Send to Persistence (DB)');
+        $scope.msgSuccess = 'Successfully created';
+        $('#mdInfo').modal('show');
+        $scope.resetFields();
+      }
+
+    }
+
+    /* Function to reiniti all fields */
+    $scope.resetFields = function(){
+      $scope.tmpVehicle = {};
+    }
 
 })
 .controller('listCtrl', function($scope, $rootScope,$routeParams, $location, $route, $templateCache, Archs){

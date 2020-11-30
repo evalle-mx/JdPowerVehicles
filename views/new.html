@@ -1,1 +1,103 @@
-<h2> New vehicle <h2>
+<div class="main" ng-controller="vehicleCtrl">
+    <div class="content-header">
+        <span class="content-title">New Vehicle</span>
+    </div>
+    
+    <div class="row content-menu">
+        <a href="#/" class="btn btn-sm btn-default"> <i class="glyphicon glyphicon-home"></i> Home </a>
+            &nbsp;
+        <a href="#/vlist" class="btn btn-sm btn-default"> <i class="glyphicon glyphicon-screenshot"></i> Search</a>
+    </div>
+    
+    <div class="row " >
+        <div class="col-xs-8" >
+            <div >
+                <div class="form-group">
+                    <label for="sellerName">Name:</label>
+                    <input type="text" class="form-control" id="sellerName" placeholder="Seller Name" ng-model="tmpVehicle.sellerName">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" class="form-control" id="address" placeholder="Address" ng-model="tmpVehicle.address">
+                </div>
+                <div class="form-group">
+                    <label for="apartment">Apartment, suite, etc:</label>
+                    <input type="text" class="form-control" id="apartment" placeholder="Apartment" ng-model="tmpVehicle.apartment">
+                </div>
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" class="form-control" id="city" placeholder="City" ng-model="tmpVehicle.city">
+                </div>
+                <div class="form-group">
+                    <label for="province">State/Province:</label>
+                    <select class="form-control" id="province" ng-model="tmpVehicle.province">
+                    <option value="1">Default</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" class="form-control" id="phone" placeholder="(123)123-1234" ng-model="tmpVehicle.phone">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" ng-model="tmpVehicle.email">
+                </div> 
+                <hr>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Vehicle
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group row">
+                            <div class="col-xs-4">
+                                <label for="make">Make</label>
+                                <select class="form-control " id="make" ng-model="tmpVehicle.make">
+                                    <option ng-repeat="optionOjb in cat.manufacts"
+                                                        value="{{optionOjb.description}}">{{optionOjb.description}}</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4">
+                                <label for="model">Model:</label>
+                                <!-- <select class="form-control" id="model" ng-model="tmpVehicle.model">
+                                    <option value="a">A</option>
+                                    <option value="b">B</option>
+                                    <option value="c">C</option>
+                                </select> -->
+                                <input type="text"  class="form-control" id="model" ng-model="tmpVehicle.model"/>
+                            </div>
+                            <div class="col-xs-2">
+                                <label for="year"> Year:</label>
+                                <select class="form-control" id="year" ng-model="tmpVehicle.year">
+                                    <option ng-repeat="opc in cat.years" value="{{opc}}">{{opc}}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="alert alert-success" ng-show="msgSuccess" role="alert">...</div> -->
+                <div class="alert alert-danger" ng-show="msgError" role="alert"> {{msgError}} </div>
+                <button class="btn btn-success" ng-click="createVehicle()"> <i class="glyphicon glyphicon-floppy-disk"></i> Create</button>
+                    &nbsp;&nbsp;
+                <button class="btn btn-primary" ng-click="resetFields()"> <i class="glyphicon glyphicon-refresh"></i> Reset</button>
+                    &nbsp;&nbsp;
+                <a href="home.html" class="btn btn-default"> <i class="glyphicon glyphicon-home"></i> Cancel</a>
+            </div>
+        </div> <!-- //col-xs-8 -->
+    </div> <!-- //row-->
+
+
+    <!-- #######################  MODALS   #############################  -->
+    <div class="modal fade" id="mdInfo" role="dialog" data-backdrop="static" >
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body" >
+                    <div class="alert alert-success" ng-show="msgSuccess" role="alert">{{msgSuccess}}</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>      
+        </div>
+    </div><!-- End: Modal-->
+
+</div>
