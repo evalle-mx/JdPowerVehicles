@@ -1,0 +1,66 @@
+[{
+		"sellerName": "Rafa Marquez",
+		"address": "256 Main Street",
+		"apartment": "201",
+		"city": "Toronto",
+		"province": "Ontario",
+		"phone": "(327) 989-1112",
+		"email": "rafa@hypermail.com",
+		"make": "Ford",
+		"model": "Mustang",
+		"jdpowerlink": "ford/mustang/2012",
+		"year": "2015"
+	},
+	{
+		"sellerName": "David Beckham",
+		"address": "188 King Street",
+		"apartment": "201",
+		"city": "Waterloo",
+		"province": "Ontario",
+		"phone": "(347) 989-1112",
+		"email": "becks@hypermail.com",
+		"make": "Dodge",
+		"model": "charger",
+		"jdpowerlink": "dodge/charger/2020",
+		"year": "2020"
+	},
+	{
+		"sellerName": "Mohamed Alli",
+		"address": "99 King Street",
+		"apartment": "12",
+		"city": "Waterloo",
+		"province": "Ontario",
+		"phone": "(692) 252-8749",
+		"email": "boxerking@quo.com",
+		"make": "Ford",
+		"model": "ecosport",
+		"jdpowerlink": "ford/ecosport/2021",
+		"year": "2021"
+	},
+	{
+		"sellerName": "John Smith",
+		"address": "494 W 38th Ave",
+		"apartment": "12",
+		"city": "Vancouver",
+		"province": "British Columbia",
+		"phone": "(604) 700-8749",
+		"email": "johnys@yahoo.com",
+		"make": "Suzuki",
+		"model": "kizashi",
+		"jdpowerlink": "suzuki/kizashi/2012",
+		"year": "2012"
+	},
+	{
+		"sellerName": "Pierre Angelo",
+		"address": "1625 Saint-Catherine St",
+		"apartment": "12",
+		"city": "Montreal",
+		"province": "Quebec",
+		"phone": "(514) 587-8749",
+		"email": "pierre@gmail.com",
+		"make": "Mazda",
+		"model": "mx-5 miata",
+		"jdpowerlink": "mazda/mx-5-miata/2020",
+		"year": "2020"
+	}
+]

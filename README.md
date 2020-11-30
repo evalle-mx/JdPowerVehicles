@@ -10,3 +10,7 @@
 + angular/
 + css/
 + js/
+
+
+#  V.0.2    #
+## NewVehicle, VehicleList, Home Page Forward functionality

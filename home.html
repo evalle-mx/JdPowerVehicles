@@ -1,4 +1,4 @@
-;<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,15 @@
     <!-- Js Code propietary -->
     <script src="js/vehicules.js"></script>
 </head>
-<body>
-    <h1> This is the first page on the Project</h1>
+<body data-ng-app="vehicleApp" class="ng-cloak">
+    <header class="kred-top-menu">
+		<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		  	<nav>	
+		  		<span class="navbar-g7"> Group 7 </span>
+			</nav>
+		</div>
+    </header>
+    
+    <div class="container" ng-view ng-controller="mainController"></div>
 </body>
 </html>
