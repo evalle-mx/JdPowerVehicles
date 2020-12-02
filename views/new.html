@@ -86,7 +86,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="alert alert-success" ng-show="msgSuccess" role="alert">...</div> -->
+                <div class="alert alert-success" ng-show="msgSuccess" role="alert">
+                    <table class="table">
+                        <caption>Your vehicle</caption>
+                        <tr> <td><b>Seller:</b></td><td>{{vehinfo.sellerName}}</td></tr>
+                        <tr> <td><b>Email:</b>></td><td>{{vehinfo.email}}</td></tr>
+                        <tr> <td><b>Address:</b>></td><td>{{vehinfo.address}} {{vehinfo.city}} {{vehinfo.province}}</td></tr>
+                        <tr> <td><b>Vehicle:</b>></td><td>{{vehinfo.make}} {{vehinfo.model}} {{vehinfo.year}}</td></tr>
+
+                        <tr><td colspan="2">
+                            <a href="#/vlist" class="btn btn-sm btn-default"> <i class="glyphicon glyphicon-screenshot"></i> View in List</a>
+                        </td></tr>
+                    </table>
+                </div>
                 <div class="alert alert-danger" ng-show="msgError" role="alert"> {{msgError}} </div>
                 <button class="btn btn-success" ng-click="createVehicle()"> <i class="glyphicon glyphicon-floppy-disk"></i> Create</button>
                     &nbsp;&nbsp;

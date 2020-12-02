@@ -43,6 +43,7 @@ vehicleApp
 
     //$scope.vehicules = Archs.query(); //Callback to DB
     $scope.tmpVehicle = {}; //Auxiliar variable
+    $scope.vehinfo = {}; //Just for Success displaying
 
     console.log('$scope.vehicule.length: ', $scope.vehicules.length );
     console.log('$scope.vehicule: ', $scope.vehicules )
@@ -58,6 +59,7 @@ vehicleApp
     /* Validation and Request for new object */
     $scope.createVehicle = function(){
       console.log('<createVehicle> ');
+      $scope.vehinfo = {};
       $scope.msgError = '';
       $scope.msgSuccess='';
       console.log( JSON.stringify($scope.tmpVehicle) );
@@ -112,6 +114,7 @@ vehicleApp
         console.log('$scope.vehicule.length: ', $scope.vehicules.length )
         $scope.msgSuccess = 'Successfully created';
         $('#mdInfo').modal('show');
+        $scope.vehinfo = angular.copy($scope.tmpVehicle);
         $scope.resetFields();
       }
 

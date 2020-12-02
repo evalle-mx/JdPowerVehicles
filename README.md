@@ -25,3 +25,6 @@
 
 #  V.0.5    #
 ## Vehicle list's JS functionality, data access, bugs fixing, home forward/return 
+
+#  V.0.6  # 
+## Display Vehicle created, and Go to List after success notification 
