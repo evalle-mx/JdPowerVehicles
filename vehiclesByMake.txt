@@ -1,0 +1,124 @@
+#######Vehicles list obtained from:  http://www.jdpower.com/cars/  #############
+#####  Vehicles for Acura  #####
+https://www.jdpower.com/cars/2020/acura/ilx
+https://www.jdpower.com/cars/2020/acura/mdx
+https://www.jdpower.com/cars/2020/acura/nsx
+
+
+#####  Vehicles for Alfa Romeo  #####
+
+#####  Vehicles for Aston Martin  #####
+
+#####  Vehicles for Audi  #####
+
+#####  Vehicles for Bentley  #####
+
+#####  Vehicles for BMW  #####
+
+#####  Vehicles for Buick  #####
+
+#####  Vehicles for Cadillac  #####
+
+#####  Vehicles for Chevrolet  #####
+
+#####  Vehicles for Chrysler  #####
+
+#####  Vehicles for Daewoo  #####
+
+#####  Vehicles for Dodge  #####
+
+#####  Vehicles for Ferrari  #####
+
+#####  Vehicles for FIAT  #####
+
+#####  Vehicles for Fisker  #####
+
+#####  Vehicles for Ford  #####
+
+#####  Vehicles for Freightliner Light Duty  #####
+
+#####  Vehicles for Genesis  #####
+
+#####  Vehicles for GMC  #####
+
+#####  Vehicles for Honda  #####
+
+#####  Vehicles for Hummer  #####
+
+#####  Vehicles for Hyundai  #####
+
+#####  Vehicles for INFINITI  #####
+
+#####  Vehicles for Isuzu  #####
+
+#####  Vehicles for Jaguar  #####
+
+#####  Vehicles for Jeep  #####
+
+#####  Vehicles for Karma Automotive  #####
+
+#####  Vehicles for Kia  #####
+
+#####  Vehicles for Lamborghini  #####
+
+#####  Vehicles for Land Rover  #####
+
+#####  Vehicles for Lexus  #####
+
+#####  Vehicles for Lincoln  #####
+
+#####  Vehicles for Lotus  #####
+
+#####  Vehicles for Maserati  #####
+
+#####  Vehicles for Maybach  #####
+
+#####  Vehicles for Mazda  #####
+
+#####  Vehicles for McLaren  #####
+
+#####  Vehicles for Mercedes-Benz  #####
+
+#####  Vehicles for Mercury  #####
+
+#####  Vehicles for MINI  #####
+
+#####  Vehicles for Mitsubishi  #####
+
+#####  Vehicles for Nissan  #####
+
+#####  Vehicles for Oldsmobile  #####
+
+#####  Vehicles for Panoz  #####
+
+#####  Vehicles for Plymouth  #####
+
+#####  Vehicles for Pontiac  #####
+
+#####  Vehicles for Porsche  #####
+
+#####  Vehicles for Ram Truck  #####
+
+#####  Vehicles for Rolls-Royce  #####
+
+#####  Vehicles for Saab  #####
+
+#####  Vehicles for Saturn  #####
+
+#####  Vehicles for Scion  #####
+
+#####  Vehicles for smart  #####
+
+#####  Vehicles for Subaru  #####
+
+#####  Vehicles for Suzuki  #####
+
+#####  Vehicles for Tesla Motors  #####
+
+#####  Vehicles for Toyota  #####
+
+#####  Vehicles for Volkswagen  #####
+
+#####  Vehicles for Volvo  ####
+
+
