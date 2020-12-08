@@ -48,11 +48,11 @@
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone Number:</label>
-                    <input type="text" class="form-control" id="phone" placeholder="(123)123-1234" ng-model="tmpVehicle.phone">
+                    <input type="text" class="form-control" id="phone" placeholder="(123)123-1234" ng-model="tmpVehicle.phone" ng-blur="validPhone();">
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" ng-model="tmpVehicle.email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" ng-model="tmpVehicle.email" ng-blur="validEmail()">
                 </div> 
                 <hr>
                 <div class="panel panel-default">
@@ -63,19 +63,18 @@
                         <div class="form-group row">
                             <div class="col-xs-4">
                                 <label for="make">Make</label>
-                                <select class="form-control " id="make" ng-model="tmpVehicle.make">
-                                    <option ng-repeat="optionOjb in cat.manufacts"
-                                                        value="{{optionOjb.description}}">{{optionOjb.description}}</option>
+                                <select class="form-control " id="make" ng-model="tmpVehicle.make" ng-change="selModel()">
+                                    <option ng-repeat="maker in cat.manufacts"
+                                                        value="{{maker.idMaker}}">{{maker.description}}</option>
                                 </select>
                             </div>
                             <div class="col-xs-4">
                                 <label for="model">Model:</label>
-                                <!-- <select class="form-control" id="model" ng-model="tmpVehicle.model">
-                                    <option value="a">A</option>
-                                    <option value="b">B</option>
-                                    <option value="c">C</option>
-                                </select> -->
-                                <input type="text"  class="form-control" id="model" ng-model="tmpVehicle.model"/>
+                                <select class="form-control" id="model" ng-model="tmpVehicle.model">
+                                    <option ng-repeat="model in cat.models"
+                                    value="{{model.idModel}}">{{model.description}}</option>
+                                </select>
+                                <!-- <input type="text"  class="form-control" id="model" ng-model="tmpVehicle.model"/> -->
                             </div>
                             <div class="col-xs-2">
                                 <label for="year"> Year:</label>
@@ -92,7 +91,11 @@
                         <tr> <td><b>Seller:</b></td><td>{{vehinfo.sellerName}}</td></tr>
                         <tr> <td><b>Email:</b></td><td>{{vehinfo.email}}</td></tr>
                         <tr> <td><b>Address:</b></td><td>{{vehinfo.address}} {{vehinfo.city}} {{vehinfo.province}}</td></tr>
-                        <tr> <td><b>Vehicle:</b></td><td>{{vehinfo.make}} {{vehinfo.model}} {{vehinfo.year}}</td></tr>
+                        <tr> <td><b>Vehicle:</b></td><td>
+                            <a href="http://www.jdpower.com/cars/{{vehinfo.jdpowerlink}}" target="_blank">
+                            {{vehinfo.make}} {{vehinfo.model}} {{vehinfo.year}}
+                            </a>
+                        </td></tr>
 
                         <tr><td colspan="2">
                             <a href="#/vlist" class="btn btn-sm btn-default"> <i class="glyphicon glyphicon-screenshot"></i> View in List</a>
@@ -116,6 +119,7 @@
             <div class="modal-content">
                 <div class="modal-body" >
                     <div class="alert alert-success" ng-show="msgSuccess" role="alert">{{msgSuccess}}</div>
+                    <div class="alert alert-danger" ng-show="msgError" role="alert">{{msgError}}</div>
                 </div>
                 <div class="modal-footer">
                     <!-- <button class="btn btn-primary" ng-click="gotoList()" data-dismiss="modal"> <i class="glyphicon glyphicon-th-list"></i> Go to List </button> -->

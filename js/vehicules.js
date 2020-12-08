@@ -20,7 +20,7 @@ vehicleApp
   $scope.cat.years = [];  //FIll with years attribute in Model 
 
   /* Temporal for setting years combo */
-  for(let year = 1990; year<2021; year++){
+  for(let year = 2021; year>=2018; year--){
     $scope.cat.years.push(year);
   }
   console.log('$scope.cat: ', $scope.cat );
@@ -44,7 +44,7 @@ vehicleApp
     //$scope.vehicules = Archs.query(); //Callback to DB
     $scope.tmpVehicle = {}; //Auxiliar variable
     $scope.vehinfo = {}; //Just for Success displaying
-
+    
     console.log('$scope.vehicule.length: ', $scope.vehicules.length );
     console.log('$scope.vehicule: ', $scope.vehicules )
 
@@ -56,6 +56,60 @@ vehicleApp
     }
     
     /* ******** Business Functions  ******** */
+
+    $scope.selModel = function(){
+      console.log('<selModel>')
+      let idMaker = $scope.tmpVehicle.make;
+      console.log('Loading models for idMaker: ', idMaker );
+
+      $scope.cat.manufacts.forEach( function(maker, index) {
+        if(maker.idMaker == idMaker) {
+          console.log('Reloading cat.model: ', maker.models )
+          $scope.cat.models = angular.copy(maker.models);
+        } 
+      });      
+    }
+    
+    /* Verifies correct format for email */
+    $scope.validEmail = function(){
+      console.log('<validEmail>  ');
+      $scope.msgError = '';
+      $scope.msgSuccess='';
+
+      if($scope.tmpVehicle.email){
+        console.log('Validating email: ', $scope.tmpVehicle.email );
+        let email = angular.copy($scope.tmpVehicle.email);
+
+        //Using Regular Expression
+        let emailregex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+        if(!email.match(emailregex)){
+          $scope.msgError = 'Your email '+ email + ' is not valid, please review';
+          $('#mdInfo').modal('show');
+          $scope.tmpVehicle.email = '';
+        }
+      }
+    }
+
+    /* Verifies correct format for phone number */
+    $scope.validPhone = function(){
+      console.log('<validPhone>  ');
+      $scope.msgError = '';
+      $scope.msgSuccess='';
+
+      console.log('Validating phone: ', $scope.tmpVehicle.phone );
+      if($scope.tmpVehicle.phone){
+        let phoneNumber = angular.copy($scope.tmpVehicle.phone);
+        //Using Regular Expression
+        var phoneno = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
+        // /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if(!phoneNumber.match(phoneno)){
+          $scope.msgError = 'Phone Number '+ phoneNumber + ' is not valid, please review';
+          $('#mdInfo').modal('show');
+          $scope.tmpVehicle.phone = '';
+        }
+      }
+    }
+
     /* Validation and Request for new object */
     $scope.createVehicle = function(){
       console.log('<createVehicle> ');
@@ -100,8 +154,26 @@ vehicleApp
         return;
       }
       else{
-        //Everything is ok, create the jdpowerlink
-        $scope.tmpVehicle.jdpowerlink =  $scope.ftLnk($scope.tmpVehicle.make)+'/'+$scope.ftLnk($scope.tmpVehicle.model)+'/'+$scope.tmpVehicle.year; //dodge/focus-electric/2012
+        
+        let nMake, lnkMake, nModel, lnkModel;
+
+        $scope.cat.manufacts.forEach( function(maker, index) {
+          if(maker.idMaker == $scope.tmpVehicle.make) {
+            nMake = maker.description;
+            lnkMake = maker.token;
+            console.log('Iterating models: ', maker.models )
+            maker.models.forEach(function(model, index){
+              if(model.idModel == $scope.tmpVehicle.model){
+                nModel = model.description;
+                lnkModel = model.token;
+              }
+            });
+          } 
+        });
+
+        $scope.tmpVehicle.make = nMake;
+        $scope.tmpVehicle.model = nModel;
+        $scope.tmpVehicle.jdpowerlink =  $scope.tmpVehicle.year+'/'+lnkMake+'/'+lnkModel;
 
         //Generating id (Simulation of DB asignation )
         $scope.tmpVehicle.id = $scope.vehicules.length +1;

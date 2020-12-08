@@ -3,45 +3,227 @@
 https://www.jdpower.com/cars/2020/acura/ilx
 https://www.jdpower.com/cars/2020/acura/mdx
 https://www.jdpower.com/cars/2020/acura/nsx
+https://www.jdpower.com/cars/2020/acura/rdx
+https://www.jdpower.com/cars/2020/acura/rlx
+https://www.jdpower.com/cars/2020/acura/tlx
 
 
 #####  Vehicles for Alfa Romeo  #####
+https://www.jdpower.com/cars/2020/alfa-romeo/4c
+https://www.jdpower.com/cars/2020/alfa-romeo/giulia
+https://www.jdpower.com/cars/2020/alfa-romeo/stelvio
+
 
 #####  Vehicles for Aston Martin  #####
+https://www.jdpower.com/cars/2020/aston-martin/db11
+https://www.jdpower.com/cars/2020/aston-martin/dbs
+https://www.jdpower.com/cars/2020/aston-martin/vantage
+
 
 #####  Vehicles for Audi  #####
+https://www.jdpower.com/cars/2020/audi/a3
+https://www.jdpower.com/cars/2020/audi/a4
+https://www.jdpower.com/cars/2020/audi/a4-allroad
+https://www.jdpower.com/cars/2020/audi/a5
+https://www.jdpower.com/cars/2020/audi/a6
+https://www.jdpower.com/cars/2020/audi/a6-allroad
+https://www.jdpower.com/cars/2020/audi/a7
+https://www.jdpower.com/cars/2020/audi/a8-l
+https://www.jdpower.com/cars/2020/audi/q3
+https://www.jdpower.com/cars/2020/audi/q5
+https://www.jdpower.com/cars/2020/audi/q7
+https://www.jdpower.com/cars/2020/audi/q8
+https://www.jdpower.com/cars/2020/audi/r8
+https://www.jdpower.com/cars/2020/audi/rs-3
+https://www.jdpower.com/cars/2020/audi/rs-q8
+https://www.jdpower.com/cars/2020/audi/s3
+https://www.jdpower.com/cars/2020/audi/s5
+https://www.jdpower.com/cars/2020/audi/s6
+https://www.jdpower.com/cars/2020/audi/s7
+https://www.jdpower.com/cars/2020/audi/s8
+https://www.jdpower.com/cars/2020/audi/sq5
+https://www.jdpower.com/cars/2020/audi/sq7
+https://www.jdpower.com/cars/2020/audi/sq8
+https://www.jdpower.com/cars/2020/audi/tt
+https://www.jdpower.com/cars/2020/audi/tt-rs
+https://www.jdpower.com/cars/2020/audi/tts
+
 
 #####  Vehicles for Bentley  #####
+https://www.jdpower.com/cars/2020/bentley/bentayga
+https://www.jdpower.com/cars/2020/bentley/continental
+https://www.jdpower.com/cars/2020/bentley/flying-spur
+https://www.jdpower.com/cars/2020/bentley/mulsanne
+
 
 #####  Vehicles for BMW  #####
+https://www.jdpower.com/cars/2020/bmw/2-series
+https://www.jdpower.com/cars/2020/bmw/3-series
+https://www.jdpower.com/cars/2020/bmw/4-series
+https://www.jdpower.com/cars/2020/bmw/5-series
+https://www.jdpower.com/cars/2020/bmw/7-series
+https://www.jdpower.com/cars/2020/bmw/8-series
+https://www.jdpower.com/cars/2020/bmw/m2
+https://www.jdpower.com/cars/2020/bmw/m4
+https://www.jdpower.com/cars/2020/bmw/m5
+https://www.jdpower.com/cars/2020/bmw/m8
+https://www.jdpower.com/cars/2020/bmw/x1
+https://www.jdpower.com/cars/2020/bmw/x2
+https://www.jdpower.com/cars/2020/bmw/x3
+https://www.jdpower.com/cars/2020/bmw/x3-m
+https://www.jdpower.com/cars/2020/bmw/x4
+https://www.jdpower.com/cars/2020/bmw/x5
+https://www.jdpower.com/cars/2020/bmw/x5-m
+https://www.jdpower.com/cars/2020/bmw/x6
+https://www.jdpower.com/cars/2020/bmw/x7
+https://www.jdpower.com/cars/2020/bmw/z4
+
+https://www.jdpower.com/cars/2020/bmw/i3
+https://www.jdpower.com/cars/2020/bmw/i8
+
 
 #####  Vehicles for Buick  #####
+https://www.jdpower.com/cars/2020/buick/enclave
+https://www.jdpower.com/cars/2020/buick/encore
+https://www.jdpower.com/cars/2020/buick/encore-gx
+https://www.jdpower.com/cars/2020/buick/envision
+https://www.jdpower.com/cars/2020/buick/regal-sportback
+https://www.jdpower.com/cars/2020/buick/regal-tourx
 
 #####  Vehicles for Cadillac  #####
+https://www.jdpower.com/cars/2020/cadillac/ct4
+https://www.jdpower.com/cars/2020/cadillac/ct5
+https://www.jdpower.com/cars/2020/cadillac/ct6
+https://www.jdpower.com/cars/2020/cadillac/ct6-v
+https://www.jdpower.com/cars/2020/cadillac/escalade
+https://www.jdpower.com/cars/2020/cadillac/escalade-esv
+https://www.jdpower.com/cars/2020/cadillac/xt4
+https://www.jdpower.com/cars/2020/cadillac/xt5
+https://www.jdpower.com/cars/2020/cadillac/xt6
+
 
 #####  Vehicles for Chevrolet  #####
+https://www.jdpower.com/cars/2020/chevrolet/3500-lcf
+https://www.jdpower.com/cars/2020/chevrolet/blazer
+https://www.jdpower.com/cars/2020/chevrolet/bolt-ev
+https://www.jdpower.com/cars/2020/chevrolet/camaro
+https://www.jdpower.com/cars/2020/chevrolet/colorado
+https://www.jdpower.com/cars/2020/chevrolet/corvette
+https://www.jdpower.com/cars/2020/chevrolet/equinox
+https://www.jdpower.com/cars/2020/chevrolet/express
+https://www.jdpower.com/cars/2020/chevrolet/impala
+https://www.jdpower.com/cars/2020/chevrolet/malibu
+https://www.jdpower.com/cars/2020/chevrolet/silverado-1500
+https://www.jdpower.com/cars/2020/chevrolet/silverado-2500hd
+https://www.jdpower.com/cars/2020/chevrolet/silverado-3500hd
+https://www.jdpower.com/cars/2020/chevrolet/sonic
+https://www.jdpower.com/cars/2020/chevrolet/spark
+https://www.jdpower.com/cars/2020/chevrolet/suburban
+https://www.jdpower.com/cars/2020/chevrolet/tahoe
+https://www.jdpower.com/cars/2020/chevrolet/traverse
+https://www.jdpower.com/cars/2020/chevrolet/trax
+
 
 #####  Vehicles for Chrysler  #####
+https://www.jdpower.com/cars/2020/chrysler/300
+https://www.jdpower.com/cars/2020/chrysler/pacifica
+https://www.jdpower.com/cars/2020/chrysler/voyager
+
 
 #####  Vehicles for Daewoo  #####
+https://www.jdpower.com/cars/2001/daewoo/lanos
+
 
 #####  Vehicles for Dodge  #####
+https://www.jdpower.com/cars/2020/dodge/challenger
+https://www.jdpower.com/cars/2020/dodge/charger
+https://www.jdpower.com/cars/2020/dodge/durango
+https://www.jdpower.com/cars/2020/dodge/grand-caravan
+https://www.jdpower.com/cars/2020/dodge/journey
+
 
 #####  Vehicles for Ferrari  #####
+https://www.jdpower.com/cars/2020/ferrari/488-pista
+https://www.jdpower.com/cars/2020/ferrari/488-pista-spider
+https://www.jdpower.com/cars/2020/ferrari/812-superfast
+https://www.jdpower.com/cars/2020/ferrari/f8-tributo
+https://www.jdpower.com/cars/2020/ferrari/gtc4lusso
+https://www.jdpower.com/cars/2020/ferrari/portofino
+
 
 #####  Vehicles for FIAT  #####
+https://www.jdpower.com/cars/2020/fiat/124-spider
+https://www.jdpower.com/cars/2020/fiat/500l
+https://www.jdpower.com/cars/2020/fiat/500x
+
 
 #####  Vehicles for Fisker  #####
+https://www.jdpower.com/cars/2012/fisker/karma
 
 #####  Vehicles for Ford  #####
+https://www.jdpower.com/cars/2020/ford/ecosport
+https://www.jdpower.com/cars/2020/ford/edge
+https://www.jdpower.com/cars/2020/ford/escape
+https://www.jdpower.com/cars/2020/ford/expedition
+https://www.jdpower.com/cars/2020/ford/expedition-max
+https://www.jdpower.com/cars/2020/ford/explorer
+https://www.jdpower.com/cars/2020/ford/f-150
+https://www.jdpower.com/cars/2020/ford/f-250
+https://www.jdpower.com/cars/2020/ford/f-350
+https://www.jdpower.com/cars/2020/ford/fusion
+https://www.jdpower.com/cars/2020/ford/fusion-energi
+https://www.jdpower.com/cars/2020/ford/fusion-hybrid
+https://www.jdpower.com/cars/2020/ford/mustang
+https://www.jdpower.com/cars/2020/ford/ranger
+https://www.jdpower.com/cars/2020/ford/transit-cargo
+https://www.jdpower.com/cars/2020/ford/transit-connect
+https://www.jdpower.com/cars/2020/ford/transit-crew
+https://www.jdpower.com/cars/2020/ford/transit-passenger
+
 
 #####  Vehicles for Freightliner Light Duty  #####
+https://www.jdpower.com/cars/2019/freightliner-light-duty/sprinter-cargo
+https://www.jdpower.com/cars/2019/freightliner-light-duty/sprinter-chassis
+
 
 #####  Vehicles for Genesis  #####
+https://www.jdpower.com/cars/2020/genesis/g70
+https://www.jdpower.com/cars/2020/genesis/g80
+https://www.jdpower.com/cars/2020/genesis/g90
+
 
 #####  Vehicles for GMC  #####
+https://www.jdpower.com/cars/2020/gmc/acadia
+https://www.jdpower.com/cars/2020/gmc/canyon
+https://www.jdpower.com/cars/2020/gmc/savana-cargo
+https://www.jdpower.com/cars/2020/gmc/savana-passenger
+https://www.jdpower.com/cars/2020/gmc/sierra-1500
+https://www.jdpower.com/cars/2020/gmc/sierra-2500hd
+https://www.jdpower.com/cars/2020/gmc/sierra-3500hd
+https://www.jdpower.com/cars/2020/gmc/terrain
+https://www.jdpower.com/cars/2020/gmc/yukon
+https://www.jdpower.com/cars/2020/gmc/yukon-xl
+
 
 #####  Vehicles for Honda  #####
+https://www.jdpower.com/cars/2020/honda/accord
+https://www.jdpower.com/cars/2020/honda/accord-hybrid
+https://www.jdpower.com/cars/2020/honda/cr-v
+https://www.jdpower.com/cars/2020/honda/cr-v-hybrid
+https://www.jdpower.com/cars/2020/honda/civic
+https://www.jdpower.com/cars/2020/honda/civic-si
+https://www.jdpower.com/cars/2020/honda/civic-type-r
+https://www.jdpower.com/cars/2020/honda/clarity-fuel-cell
+https://www.jdpower.com/cars/2020/honda/clarity-plug-in-hybrid
+https://www.jdpower.com/cars/2020/honda/fit
+https://www.jdpower.com/cars/2020/honda/hr-v
+https://www.jdpower.com/cars/2020/honda/insight
+https://www.jdpower.com/cars/2020/honda/odyssey
+https://www.jdpower.com/cars/2020/honda/passport
+https://www.jdpower.com/cars/2020/honda/pilot
+https://www.jdpower.com/cars/2020/honda/ridgeline
+
+
 
 #####  Vehicles for Hummer  #####
 
