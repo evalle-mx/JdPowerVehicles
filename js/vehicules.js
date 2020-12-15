@@ -3,9 +3,6 @@
 /* App Module */
 let vehicleApp = angular.module('vehicleApp', ['ngRoute', 'appServices']);
 
-
-
-
 /* Controllers */
 vehicleApp
 .controller('mainController', function($scope,$rootScope,$routeParams, $location, $route, $templateCache, Archs){
@@ -83,7 +80,7 @@ vehicleApp
         //Using Regular Expression
         let emailregex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
         if(!email.match(emailregex)){
-          $scope.msgError = 'Your email '+ email + ' is not valid, please review';
+          $scope.msgError = 'Your email "'+ email + '" is not valid, please review';
           $('#mdInfo').modal('show');
           $scope.tmpVehicle.email = '';
         }
@@ -103,7 +100,7 @@ vehicleApp
         var phoneno = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
         // /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
         if(!phoneNumber.match(phoneno)){
-          $scope.msgError = 'Phone Number '+ phoneNumber + ' is not valid, please review';
+          $scope.msgError = 'Phone Number "'+ phoneNumber + '" is not valid, please review';
           $('#mdInfo').modal('show');
           $scope.tmpVehicle.phone = '';
         }
