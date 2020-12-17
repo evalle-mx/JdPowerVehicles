@@ -1,7 +1,7 @@
 ##################################################################
-#  Demo Servless Angular/HTML5/Bootstrap                         #
+#  Demo Serverless Angular/HTML5/Bootstrap                         #
 #  Using routing, controllers services                           #
-#  Features: RegEx validations, dependable combos, json-resource #
+#  Features: RegExp validations, dependable combos, json-resource #
 ##################################################################
 
 
